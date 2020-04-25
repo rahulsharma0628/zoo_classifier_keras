@@ -17,6 +17,8 @@ Classify animals such as dogs, cats and pandas in the images using convolution n
 * To train the model, go to the main directory and run:<br> `$ python train_model.py --dataset data/img --model <model_name>.model --plot <loss_plot_name>.png`
 * To classify any image, use the sample images in data/test_image folder or you can upload your in the same folder and run the following code: <br>
   `$ python predict_model.py --image data/test_image/<image_name>.jpg --model <model_name>.model`
+* You can also download the [pre-trained model](https://psu.box.com/s/d2af2th3c2to00lpyu19i782f0861m9c) and use it in classifying the animal in the image. 
   <br>
+  
   
 For any queries, please reach out to me at **rahulsharma0628@gmail.com**
